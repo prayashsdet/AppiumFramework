@@ -1,0 +1,9 @@
+18:07:2022 - 20:50:30.902 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@43bb9a79
+18:07:2022 - 20:50:31.000 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:07:2022 - 20:50:31.000 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+18:07:2022 - 20:50:31.001 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.linkCapacity: 16
+18:07:2022 - 20:50:31.001 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.ratio: 8
+18:07:2022 - 20:50:31.004 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.delayedQueue.ratio: 8
+18:07:2022 - 20:50:31.970 DEBUG compression.Brotli [AsyncHttpClient-1-2] - brotli4j not in the classpath; Brotli support will be unavailable.
+18:07:2022 - 20:50:32.238 DEBUG internal.ThreadLocalRandom [main] - -Dio.netty.initialSeedUniquifier: 0xa69942dff1ea9a65
+18:07:2022 - 20:50:35.298 INFO extentreports.App [main] - Open URL: https://eswebportalqanew.earlysalary.com/SignUp

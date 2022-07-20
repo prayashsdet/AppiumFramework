@@ -1,0 +1,9 @@
+13:07:2022 - 15:19:47.817 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49c76474
+13:07:2022 - 15:19:47.880 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+13:07:2022 - 15:19:47.880 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+13:07:2022 - 15:19:47.880 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.linkCapacity: 16
+13:07:2022 - 15:19:47.880 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.ratio: 8
+13:07:2022 - 15:19:47.881 DEBUG util.Recycler [AsyncHttpClient-1-2] - -Dio.netty.recycler.delayedQueue.ratio: 8
+13:07:2022 - 15:19:48.587 DEBUG compression.Brotli [AsyncHttpClient-1-2] - brotli4j not in the classpath; Brotli support will be unavailable.
+13:07:2022 - 15:19:48.784 DEBUG internal.ThreadLocalRandom [main] - -Dio.netty.initialSeedUniquifier: 0x1ae06b2dce27c4f8
+13:07:2022 - 15:19:48.979 INFO extentreports.App [main] - Browser Launched

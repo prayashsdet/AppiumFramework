@@ -1,0 +1,7 @@
+18:07:2022 - 20:50:30.588 DEBUG util.NetUtil [Forwarding newSession on session null to remote] - -Djava.net.preferIPv4Stack: false
+18:07:2022 - 20:50:30.621 DEBUG util.NetUtil [Forwarding newSession on session null to remote] - -Djava.net.preferIPv6Addresses: false
+18:07:2022 - 20:50:30.650 DEBUG util.NetUtilInitializations [Forwarding newSession on session null to remote] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+18:07:2022 - 20:50:30.652 DEBUG util.NetUtil [Forwarding newSession on session null to remote] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:07:2022 - 20:50:30.762 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] - -Dio.netty.machineId: 80:c5:f2:ff:fe:b7:08:0b (auto-detected)
+18:07:2022 - 20:50:30.901 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] - -Dio.netty.buffer.checkAccessible: true
+18:07:2022 - 20:50:30.902 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] - -Dio.netty.buffer.checkBounds: true
