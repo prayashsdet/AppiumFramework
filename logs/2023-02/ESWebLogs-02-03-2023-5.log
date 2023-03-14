@@ -1,0 +1,9 @@
+03:02:2023 - 03:00:47.221 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3fe512d2
+03:02:2023 - 03:00:47.238 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3fde8f7c
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numHeapArenas: 16
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numDirectArenas: 16
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.pageSize: 8192
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxOrder: 11
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.chunkSize: 16777216
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.smallCacheSize: 256
+03:02:2023 - 03:00:47.259 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.normalCacheSize: 64

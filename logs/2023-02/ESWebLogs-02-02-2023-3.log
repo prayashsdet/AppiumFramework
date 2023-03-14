@@ -1,0 +1,9 @@
+02:02:2023 - 12:03:15.694 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\WINGDNG3.TTF
+02:02:2023 - 12:03:15.708 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\WINGDNG3.TTF
+02:02:2023 - 12:03:15.708 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothB.ttc
+02:02:2023 - 12:03:15.708 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothB.ttc
+02:02:2023 - 12:03:15.709 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothL.ttc
+02:02:2023 - 12:03:15.709 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothL.ttc
+02:02:2023 - 12:03:15.709 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothM.ttc
+02:02:2023 - 12:03:15.709 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothM.ttc
+02:02:2023 - 12:03:15.709 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothR.ttc

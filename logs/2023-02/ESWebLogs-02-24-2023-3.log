@@ -1,0 +1,8 @@
+24:02:2023 - 23:59:19.317 DEBUG nio.NioEventLoop [main] - -Dio.netty.noKeySetOptimization: false
+24:02:2023 - 23:59:19.328 DEBUG nio.NioEventLoop [main] - -Dio.netty.selectorAutoRebuildThreshold: 512
+24:02:2023 - 23:59:19.341 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@131a7516
+24:02:2023 - 23:59:19.345 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7f0b93b4
+24:02:2023 - 23:59:19.345 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1376883
+24:02:2023 - 23:59:19.352 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1f736d00
+24:02:2023 - 23:59:19.354 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@523a7801
+24:02:2023 - 23:59:19.356 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@718fd7c1

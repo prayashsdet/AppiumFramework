@@ -1,0 +1,9 @@
+07:02:2023 - 03:27:39.872 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothB.ttc
+07:02:2023 - 03:27:39.885 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothL.ttc
+07:02:2023 - 03:27:39.885 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothL.ttc
+07:02:2023 - 03:27:39.886 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothM.ttc
+07:02:2023 - 03:27:39.886 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothM.ttc
+07:02:2023 - 03:27:39.886 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothR.ttc
+07:02:2023 - 03:27:39.886 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothR.ttc
+07:02:2023 - 03:27:39.886 TRACE font.FileSystemFontProvider [main] - Found 531 fonts on the local system
+07:02:2023 - 03:27:39.909 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\Windows\FONTS\times.ttf

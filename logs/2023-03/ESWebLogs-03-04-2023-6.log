@@ -1,0 +1,7 @@
+04:03:2023 - 09:16:31.277 DEBUG font.FontMapperImpl [main] - getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\Windows\FONTS\arial.ttf
+04:03:2023 - 09:16:31.286 DEBUG font.FileSystemFontProvider [main] - Loaded ArialMT from C:\Windows\FONTS\arial.ttf
+04:03:2023 - 09:16:31.288 DEBUG font.FontMapperImpl [main] - getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbd.ttf
+04:03:2023 - 09:16:31.289 DEBUG font.FileSystemFontProvider [main] - Loaded Arial-BoldMT from C:\Windows\FONTS\arialbd.ttf
+04:03:2023 - 09:16:31.290 DEBUG font.FontMapperImpl [main] - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\Windows\FONTS\ariali.ttf
+04:03:2023 - 09:16:31.291 DEBUG font.FileSystemFontProvider [main] - Loaded Arial-ItalicMT from C:\Windows\FONTS\ariali.ttf
+04:03:2023 - 09:16:31.293 DEBUG font.FontMapperImpl [main] - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbi.ttf

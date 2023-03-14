@@ -1,0 +1,8 @@
+14:03:2023 - 03:06:48.240 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabicUI-Bold.ttf
+14:03:2023 - 03:06:48.297 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabicUI-Regular.ttf
+14:03:2023 - 03:06:48.298 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabicUI-Regular.ttf
+14:03:2023 - 03:06:48.299 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArmenian-Bold.ttf
+14:03:2023 - 03:06:48.300 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArmenian-Bold.ttf
+14:03:2023 - 03:06:48.302 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArmenian-Regular.ttf
+14:03:2023 - 03:06:48.302 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArmenian-Regular.ttf
+14:03:2023 - 03:06:48.303 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansGeorgian-Bold.ttf

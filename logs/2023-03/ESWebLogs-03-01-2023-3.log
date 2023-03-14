@@ -1,0 +1,9 @@
+01:03:2023 - 21:40:44.355 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\webdings.ttf
+01:03:2023 - 21:40:44.366 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\webdings.ttf
+01:03:2023 - 21:40:44.366 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\wingding.ttf
+01:03:2023 - 21:40:44.366 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\wingding.ttf
+01:03:2023 - 21:40:44.367 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\WINGDNG2.TTF
+01:03:2023 - 21:40:44.367 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\WINGDNG2.TTF
+01:03:2023 - 21:40:44.367 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\WINGDNG3.TTF
+01:03:2023 - 21:40:44.367 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\WINGDNG3.TTF
+01:03:2023 - 21:40:44.367 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothB.ttc

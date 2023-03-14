@@ -1,0 +1,7 @@
+23:02:2023 - 23:14:04.596 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothR.ttc
+23:02:2023 - 23:14:04.621 TRACE font.FileSystemFontProvider [main] - Found 531 fonts on the local system
+23:02:2023 - 23:14:04.681 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\Windows\FONTS\times.ttf
+23:02:2023 - 23:14:04.687 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPSMT from C:\Windows\FONTS\times.ttf
+23:02:2023 - 23:14:04.696 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbd.ttf
+23:02:2023 - 23:14:04.699 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-BoldMT from C:\Windows\FONTS\timesbd.ttf
+23:02:2023 - 23:14:04.702 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\Windows\FONTS\timesi.ttf

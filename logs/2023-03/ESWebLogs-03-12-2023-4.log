@@ -1,0 +1,8 @@
+12:03:2023 - 22:42:04.316 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@671facee
+12:03:2023 - 22:42:04.329 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46a953cf
+12:03:2023 - 22:42:04.332 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@154bd49b
+12:03:2023 - 22:42:04.334 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3a01773b
+12:03:2023 - 22:42:04.336 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@20e3c449
+12:03:2023 - 22:42:04.339 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2c58dcb1
+12:03:2023 - 22:42:04.341 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@67fc2aad
+12:03:2023 - 22:42:04.343 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@56f521c6

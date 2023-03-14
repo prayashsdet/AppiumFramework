@@ -1,4 +1,0 @@
-$(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"a0fe32d3-395c-44cf-a01d-2e487c1ddc8b","feature":"Verify Web Journey","scenario":"Close the application","start":1658224362426,"group":1,"content":"","tags":"","end":1658224363137,"className":"passed"},{"id":"fad6610b-07b6-4451-be78-03c63662a070","feature":"Verify Web Journey","scenario":"Login with valid credentials","start":1658224344487,"group":1,"content":"","tags":"","end":1658224362057,"className":"passed"},{"id":"dd714b98-912d-4f41-8610-01f8f536e2fb","feature":"Verify Web Journey","scenario":"User enter the basic details in form","start":1658224362106,"group":1,"content":"","tags":"","end":1658224362412,"className":"passed"}]);
-CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
-});

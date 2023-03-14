@@ -1,0 +1,9 @@
+23:02:2023 - 23:14:04.484 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgas874.fon
+23:02:2023 - 23:14:04.506 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasys.fon
+23:02:2023 - 23:14:04.506 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasyse.fon
+23:02:2023 - 23:14:04.506 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasysg.fon
+23:02:2023 - 23:14:04.506 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasysr.fon
+23:02:2023 - 23:14:04.506 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasyst.fon
+23:02:2023 - 23:14:04.508 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\VINERITC.TTF
+23:02:2023 - 23:14:04.508 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\VINERITC.TTF
+23:02:2023 - 23:14:04.508 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\VIVALDII.TTF

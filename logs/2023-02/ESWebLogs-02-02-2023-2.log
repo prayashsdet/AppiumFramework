@@ -1,0 +1,9 @@
+02:02:2023 - 12:03:15.679 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\VIVALDII.TTF
+02:02:2023 - 12:03:15.693 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\VLADIMIR.TTF
+02:02:2023 - 12:03:15.693 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\VLADIMIR.TTF
+02:02:2023 - 12:03:15.693 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\webdings.ttf
+02:02:2023 - 12:03:15.693 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\webdings.ttf
+02:02:2023 - 12:03:15.693 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\wingding.ttf
+02:02:2023 - 12:03:15.694 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\wingding.ttf
+02:02:2023 - 12:03:15.694 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\WINGDNG2.TTF
+02:02:2023 - 12:03:15.694 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\WINGDNG2.TTF

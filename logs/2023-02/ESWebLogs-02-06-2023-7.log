@@ -1,0 +1,7 @@
+06:02:2023 - 13:26:41.242 DEBUG font.FileSystemFontProvider [main] - Loaded CourierNewPS-BoldMT from C:\Windows\FONTS\courbd.ttf
+06:02:2023 - 13:26:41.254 DEBUG font.FontMapperImpl [main] - getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\Windows\FONTS\couri.ttf
+06:02:2023 - 13:26:41.255 DEBUG font.FileSystemFontProvider [main] - Loaded CourierNewPS-ItalicMT from C:\Windows\FONTS\couri.ttf
+06:02:2023 - 13:26:41.257 DEBUG font.FontMapperImpl [main] - getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\Windows\FONTS\courbi.ttf
+06:02:2023 - 13:26:41.259 DEBUG font.FileSystemFontProvider [main] - Loaded CourierNewPS-BoldItalicMT from C:\Windows\FONTS\courbi.ttf
+06:02:2023 - 13:26:41.261 DEBUG font.FontMapperImpl [main] - getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\Windows\FONTS\symbol.ttf
+06:02:2023 - 13:26:41.262 DEBUG font.FileSystemFontProvider [main] - Loaded SymbolMT from C:\Windows\FONTS\symbol.ttf

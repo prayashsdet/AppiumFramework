@@ -1,0 +1,10 @@
+19:07:2022 - 15:22:33.618 INFO extentreports.App [main] - enter Mobile number
+19:07:2022 - 15:22:38.693 INFO extentreports.App [main] - enter OTP: 288525
+19:07:2022 - 15:22:42.393 INFO extentreports.App [main] - enter First Name
+19:07:2022 - 15:22:42.440 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] - Encoding WebSocket Frame opCode=8 length=26
+22:07:2022 - 11:09:02.830 DEBUG ttf.GlyphSubstitutionTable [main] - Type 4 GSUB lookup table is not supported and will be ignored
+22:07:2022 - 11:09:02.833 DEBUG ttf.GlyphSubstitutionTable [main] - Type 4 GSUB lookup table is not supported and will be ignored
+22:07:2022 - 11:09:02.834 DEBUG ttf.GlyphSubstitutionTable [main] - Type 6 GSUB lookup table is not supported and will be ignored
+22:07:2022 - 11:09:02.834 DEBUG ttf.GlyphSubstitutionTable [main] - Type 4 GSUB lookup table is not supported and will be ignored
+22:07:2022 - 11:09:02.834 DEBUG ttf.GlyphSubstitutionTable [main] - Type 4 GSUB lookup table is not supported and will be ignored
+22:07:2022 - 11:09:02.879 DEBUG ttf.GlyphSubstitutionTable [main] - Type 4 GSUB lookup table is not supported and will be ignored

@@ -1,0 +1,7 @@
+02:02:2023 - 12:03:15.829 DEBUG font.FontMapperImpl [main] - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\Windows\FONTS\ariali.ttf
+02:02:2023 - 12:03:15.854 DEBUG font.FileSystemFontProvider [main] - Loaded Arial-ItalicMT from C:\Windows\FONTS\ariali.ttf
+02:02:2023 - 12:03:15.859 DEBUG font.FontMapperImpl [main] - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbi.ttf
+02:02:2023 - 12:03:15.862 DEBUG font.FileSystemFontProvider [main] - Loaded Arial-BoldItalicMT from C:\Windows\FONTS\arialbi.ttf
+02:02:2023 - 12:03:15.871 DEBUG font.FontMapperImpl [main] - getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\Windows\FONTS\cour.ttf
+02:02:2023 - 12:03:15.877 DEBUG font.FileSystemFontProvider [main] - Loaded CourierNewPSMT from C:\Windows\FONTS\cour.ttf
+02:02:2023 - 12:03:15.884 DEBUG font.FontMapperImpl [main] - getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\Windows\FONTS\courbd.ttf

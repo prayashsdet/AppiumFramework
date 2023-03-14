@@ -1,0 +1,8 @@
+14:03:2023 - 03:06:48.304 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansGeorgian-Bold.ttf
+14:03:2023 - 03:06:48.350 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansGeorgian-Regular.ttf
+14:03:2023 - 03:06:48.351 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansGeorgian-Regular.ttf
+14:03:2023 - 03:06:48.352 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansHebrew-Bold.ttf
+14:03:2023 - 03:06:48.352 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansHebrew-Bold.ttf
+14:03:2023 - 03:06:48.353 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansHebrew-Regular.ttf
+14:03:2023 - 03:06:48.354 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansHebrew-Regular.ttf
+14:03:2023 - 03:06:48.355 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansLao-Bold.ttf

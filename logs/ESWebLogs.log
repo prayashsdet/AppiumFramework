@@ -1,4 +1,9 @@
-19:07:2022 - 15:22:33.618 INFO extentreports.App [main] - enter Mobile number
-19:07:2022 - 15:22:38.693 INFO extentreports.App [main] - enter OTP: 288525
-19:07:2022 - 15:22:42.393 INFO extentreports.App [main] - enter First Name
-19:07:2022 - 15:22:42.440 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] - Encoding WebSocket Frame opCode=8 length=26
+14:03:2023 - 03:06:48.355 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansLao-Bold.ttf
+14:03:2023 - 03:06:48.410 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansLao-Regular.ttf
+14:03:2023 - 03:06:48.410 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansLao-Regular.ttf
+14:03:2023 - 03:06:48.411 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansLisu-Regular.ttf
+14:03:2023 - 03:06:48.412 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansLisu-Regular.ttf
+14:03:2023 - 03:06:48.413 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSerif-Bold.ttf
+14:03:2023 - 03:06:48.414 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSerif-Bold.ttf
+14:03:2023 - 03:06:48.415 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSerif-BoldItalic.ttf
+14:03:2023 - 03:06:48.415 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSerif-BoldItalic.ttf

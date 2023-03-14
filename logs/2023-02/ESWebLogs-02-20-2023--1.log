@@ -1,0 +1,9 @@
+20:02:2023 - 15:18:10.101 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\phagspab.ttf
+20:02:2023 - 15:18:10.127 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\phagspab.ttf
+20:02:2023 - 15:18:10.127 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\PLAYBILL.TTF
+20:02:2023 - 15:18:10.127 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\PLAYBILL.TTF
+20:02:2023 - 15:18:10.127 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\POORICH.TTF
+20:02:2023 - 15:18:10.127 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\POORICH.TTF
+20:02:2023 - 15:18:10.128 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\PRISTINA.TTF
+20:02:2023 - 15:18:10.128 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\PRISTINA.TTF
+20:02:2023 - 15:18:10.128 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\RAGE.TTF

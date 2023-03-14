@@ -1,0 +1,8 @@
+14:03:2023 - 03:06:48.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-LightItalic.ttf
+14:03:2023 - 03:06:48.234 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Regular.ttf
+14:03:2023 - 03:06:48.234 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Regular.ttf
+14:03:2023 - 03:06:48.235 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabic-Bold.ttf
+14:03:2023 - 03:06:48.236 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabic-Bold.ttf
+14:03:2023 - 03:06:48.237 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabic-Regular.ttf
+14:03:2023 - 03:06:48.238 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabic-Regular.ttf
+14:03:2023 - 03:06:48.240 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabicUI-Bold.ttf

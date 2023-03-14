@@ -1,0 +1,7 @@
+01:03:2023 - 21:40:44.418 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPSMT from C:\Windows\FONTS\times.ttf
+01:03:2023 - 21:40:44.435 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbd.ttf
+01:03:2023 - 21:40:44.437 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-BoldMT from C:\Windows\FONTS\timesbd.ttf
+01:03:2023 - 21:40:44.439 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\Windows\FONTS\timesi.ttf
+01:03:2023 - 21:40:44.441 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-ItalicMT from C:\Windows\FONTS\timesi.ttf
+01:03:2023 - 21:40:44.443 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbi.ttf
+01:03:2023 - 21:40:44.445 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-BoldItalicMT from C:\Windows\FONTS\timesbi.ttf

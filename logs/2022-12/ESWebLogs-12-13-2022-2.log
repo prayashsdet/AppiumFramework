@@ -1,0 +1,6 @@
+13:12:2022 - 22:52:37.362 DEBUG internal.PlatformDependent [main] - org.jctools-core.MpscChunkedArrayQueue: available
+13:12:2022 - 22:52:37.401 DEBUG internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+13:12:2022 - 22:52:37.401 DEBUG internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+13:12:2022 - 22:52:37.557 DEBUG ssl.JdkSslContext [main] - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+13:12:2022 - 22:52:37.558 DEBUG ssl.JdkSslContext [main] - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+13:12:2022 - 22:52:37.623 DEBUG channel.MultithreadEventLoopGroup [main] - -Dio.netty.eventLoopThreads: 16

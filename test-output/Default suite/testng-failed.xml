@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.web.es.runnerfiles.EsWebTestRunner">
+      <class name="com.mobile.es.runnerfiles.FibeMobileTestNGRunner">
         <methods>
-          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.web.es.runnerfiles.EsWebTestRunner -->
+      </class> <!-- com.mobile.es.runnerfiles.FibeMobileTestNGRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

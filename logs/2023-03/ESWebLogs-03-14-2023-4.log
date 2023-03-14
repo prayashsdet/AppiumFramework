@@ -1,0 +1,8 @@
+14:03:2023 - 03:06:48.114 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-CondensedBoldItalic.ttf
+14:03:2023 - 03:06:48.175 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-CondensedItalic.ttf
+14:03:2023 - 03:06:48.176 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-CondensedItalic.ttf
+14:03:2023 - 03:06:48.177 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Italic.ttf
+14:03:2023 - 03:06:48.177 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Italic.ttf
+14:03:2023 - 03:06:48.178 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Light.ttf
+14:03:2023 - 03:06:48.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Light.ttf
+14:03:2023 - 03:06:48.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-LightItalic.ttf

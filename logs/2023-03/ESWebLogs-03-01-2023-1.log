@@ -1,0 +1,9 @@
+01:03:2023 - 21:40:44.320 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgafixr.fon
+01:03:2023 - 21:40:44.333 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgafixt.fon
+01:03:2023 - 21:40:44.333 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgaoem.fon
+01:03:2023 - 21:40:44.333 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgas1255.fon
+01:03:2023 - 21:40:44.334 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgas1256.fon
+01:03:2023 - 21:40:44.334 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgas1257.fon
+01:03:2023 - 21:40:44.334 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgas874.fon
+01:03:2023 - 21:40:44.334 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasys.fon
+01:03:2023 - 21:40:44.334 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\vgasyse.fon

@@ -1,0 +1,10 @@
+12:03:2023 - 22:42:03.885 DEBUG internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+12:03:2023 - 22:42:03.903 DEBUG internal.PlatformDependent [main] - sun.misc.Unsafe: available
+12:03:2023 - 22:42:03.904 DEBUG internal.PlatformDependent [main] - maxDirectMemory: 4234149888 bytes (maybe)
+12:03:2023 - 22:42:03.904 DEBUG internal.PlatformDependent [main] - -Dio.netty.tmpdir: C:\Users\Prayash\AppData\Local\Temp (java.io.tmpdir)
+12:03:2023 - 22:42:03.905 DEBUG internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+12:03:2023 - 22:42:03.906 DEBUG internal.PlatformDependent [main] - Platform: Windows
+12:03:2023 - 22:42:03.907 DEBUG internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: -1 bytes
+12:03:2023 - 22:42:03.908 DEBUG internal.PlatformDependent [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+12:03:2023 - 22:42:03.910 DEBUG internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+12:03:2023 - 22:42:03.910 DEBUG internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false

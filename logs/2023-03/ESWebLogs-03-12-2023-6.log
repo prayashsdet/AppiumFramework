@@ -1,0 +1,9 @@
+12:03:2023 - 22:42:04.382 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+12:03:2023 - 22:42:04.394 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimInterval: 8192
+12:03:2023 - 22:42:04.394 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+12:03:2023 - 22:42:04.394 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.useCacheForAllThreads: true
+12:03:2023 - 22:42:04.394 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+12:03:2023 - 22:42:04.405 DEBUG buffer.ByteBufUtil [main] - -Dio.netty.allocator.type: pooled
+12:03:2023 - 22:42:04.405 DEBUG buffer.ByteBufUtil [main] - -Dio.netty.threadLocalDirectBufferSize: 0
+12:03:2023 - 22:42:04.405 DEBUG buffer.ByteBufUtil [main] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+12:03:2023 - 22:42:04.623 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] - -Dio.netty.processId: 22320 (auto-detected)
