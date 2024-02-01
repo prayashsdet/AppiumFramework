@@ -38,12 +38,16 @@ public class LOStatementPage extends BaseClass {
 		gu.ElementToClick(lm.activeChip, wait);
 		gu.ElementToClick(lm.applyFilter, wait);
 		gu.ElementToClick(lm.settingsLoanStatement, wait);
+		gu.ElementToClick(lm.activeChip, wait);
 		gu.ElementToClick(lm.pendingChip, wait);
 		gu.ElementToClick(lm.applyFilter, wait);
 		gu.ElementToClick(lm.settingsLoanStatement, wait);
+		gu.ElementToClick(lm.pendingChip, wait);
 		gu.ElementToClick(lm.closedChip, wait);
 		gu.ElementToClick(lm.applyFilter, wait);
+		gu.ElementToClick(lm.settingsLoanStatement, wait);
 		gu.ElementToClick(lm.clearAllfilter, wait);
+		gu.ElementToClick(lm.applyFilter, wait);
 	}
 	
 	public void openLoanCard() {
@@ -51,8 +55,9 @@ public class LOStatementPage extends BaseClass {
 		gu.getListText(lm.loanDetailssinglecard, wait);
 	}
 	
-	public void tapOnMoreDetails() {
+	public void tapOnMoreDetails() throws InterruptedException {
 		gu.ElementToClick(lm.moredetailslink, wait);
+		Thread.sleep(1000);
 		appdriver.pressKey(new KeyEvent (AndroidKey.BACK));
 		
 	}
@@ -60,8 +65,9 @@ public class LOStatementPage extends BaseClass {
 	public void loanCancellation() {
 		gu.ElementToClick(lm.cancelLoan,wait);
 	}
-	public void forecloseLoan() {
+	public void forecloseLoan() throws InterruptedException {
 		gu.ElementToClick(lm.forecloseLoan, wait);
+		Thread.sleep(1000);
 		appdriver.pressKey(new KeyEvent (AndroidKey.BACK));
 	}
 	
@@ -69,6 +75,12 @@ public class LOStatementPage extends BaseClass {
 		gu.ElementToClick(lm.cancelLoanbutton, wait);
 		gu.ElementToClick(lm.selectloancancellationReason, wait);
 		gu.ElementToClick(lm.cancelLoan, wait);
+		gu.ElementToClick(lm.continuetocancelloan, wait);
+		gu.ElementToClick(lm.continuetocancelloan, wait);
+		gu.ElementToClick(lm.continuetocancelloan, wait);
+		gu.ElementToClick(lm.otptextfield, wait);
+		gu.ElementToClick(lm.saveOTP, wait);
+		
 	}
 }
 	

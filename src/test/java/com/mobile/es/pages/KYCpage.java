@@ -21,15 +21,15 @@ public class KYCpage extends BaseClass {
 	public void uploadSelfie() {
 		
 		gu.ElementToClick(lm.selfieuploadbutton,wait);
-//		try {
-//			
-//		
-//		gu.ElementToClick(lm.selfiepermission,wait);
-//		}
-//		catch(Exception e) {
-//			System.out.println("selfie permission already granted");
-//	;
-//		}
+		try {
+			
+		
+		gu.ElementToClick(lm.selfiepermission,wait);
+		}
+		catch(Exception e) {
+			System.out.println("selfie permission already granted");
+	;
+		}
 		gu.ElementToClick(lm.cameraicon,wait);
 		gu.ElementToClick(lm.retake,wait);
 		gu.ElementToClick(lm.cameraicon, wait);
@@ -170,7 +170,14 @@ public class KYCpage extends BaseClass {
 			gu.ElementToClick(lm.submitdoc,wait);	
 		}
 		catch(Exception e) {
-			gu.ElementToClick(lm.submitdoc,wait);	
+			try {
+				
+			
+			gu.ElementToClick(lm.submitdoc,wait);
+			}
+			catch(Exception e1) {
+				
+			}
 		}
 		
 	}
@@ -233,7 +240,7 @@ public class KYCpage extends BaseClass {
 		 gu.ElementToClick(lm.permissionSkipButton,wait);
 		 }
 		 catch(Exception e) {
-			 log.info("permiission already granted");
+			 //("permiission already granted");
 		 }
 	 }
 	public void pennydrop() {

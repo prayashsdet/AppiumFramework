@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Prayash\AppData\Local\Temp\testng-eclipse-301611690\testng-customsuite.xml</span>
+                    <span>C:\Users\Prayash\AppData\Local\Temp\testng-eclipse--1914895240\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">3 methods, 3 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mobile.es.runnerfiles.FibeMobileTestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Happy flow for limit enhancement&quot;, &quot;LimitEnhancement&quot;)">runScenario("Happy flow for limit enhancement", "LimitEnhancement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mobile.es.runnerfiles.FibeMobileTestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Complete first milestone/block (name,dob,employment)&quot;, &quot;LimitEnhancement&quot;)">runScenario("Complete first milestone/block (name,dob,employment)", "LimitEnhancement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.mobile.es.runnerfiles.FibeMobileTestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Happy flow for Post-PAN&quot;, &quot;LimitEnhancement&quot;)">runScenario("Happy flow for Post-PAN", "LimitEnhancement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,10 +127,140 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mobile.es.runnerfiles.FibeMobileTestNGRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Happy flow for limit enhancement&quot;, &quot;LimitEnhancement&quot;)">
+                  </a> <!-- runScenario("Happy flow for limit enhancement", "LimitEnhancement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Happy flow for limit enhancement", "LimitEnhancement")</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ES-PUN-LT-388&apos;, ip: &apos;192.168.35.49&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ba0e7efe-d845-41ea-84f3-8277f36bfa72, findElement {using=xpath, value=//androidx.cardview.widget.CardView[@resource-id=&apos;com.earlysalary.android:id/card_complete_profile&apos;]}]
+Capabilities {appium:appActivity: ui.main.views.activities.Sp..., appium:appPackage: com.earlysalary.android, appium:autoGrantPermissions: true, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: ui.main.views.activities.Sp..., appPackage: com.earlysalary.android, autoGrantPermissions: true, automationName: Appium, loggingPrefs: {server: WARNING}, platformName: android, platformVersion: 12, webStorageEnabled: true}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G975F, appium:deviceName: RZ8M316LQAL, appium:deviceScreenDensity: 280, appium:deviceScreenSize: 720x1520, appium:deviceUDID: RZ8M316LQAL, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:loggingPrefs: {server: WARNING}, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.75, appium:platformVersion: 12, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:viewportRect: {height: 1294, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: true, platformName: android}
+Session ID: ba0e7efe-d845-41ea-84f3-8277f36bfa72
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at com.mobile.es.utils.GenericUtilsMobile.scrollleftoright(GenericUtilsMobile.java:157)
+	at com.mobile.es.pages.LimitEnhancementPage.swipeFibecard(LimitEnhancementPage.java:22)
+	at com.mobile.es.stepdefinations.LimitEnhancementStepDefinition.user_is_on_limit_enhancement_dashboard(LimitEnhancementStepDefinition.java:18)
+	at ✽.User is on limit enhancement Dashboard(file:///C:/Users/Prayash/Cucumber/ES_Web_Automation/ES_Web_QA/es_web_automation/src/test/resources/features/LimitEnhancement.feature:49)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Complete first milestone/block (name,dob,employment)&quot;, &quot;LimitEnhancement&quot;)">
+                  </a> <!-- runScenario("Complete first milestone/block (name,dob,employment)", "LimitEnhancement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Complete first milestone/block (name,dob,employment)", "LimitEnhancement")</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ES-PUN-LT-388&apos;, ip: &apos;192.168.35.49&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ba0e7efe-d845-41ea-84f3-8277f36bfa72, findElement {using=id, value=com.earlysalary.android:id/btnConfirmPan}]
+Capabilities {appium:appActivity: ui.main.views.activities.Sp..., appium:appPackage: com.earlysalary.android, appium:autoGrantPermissions: true, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: ui.main.views.activities.Sp..., appPackage: com.earlysalary.android, autoGrantPermissions: true, automationName: Appium, loggingPrefs: {server: WARNING}, platformName: android, platformVersion: 12, webStorageEnabled: true}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G975F, appium:deviceName: RZ8M316LQAL, appium:deviceScreenDensity: 280, appium:deviceScreenSize: 720x1520, appium:deviceUDID: RZ8M316LQAL, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:loggingPrefs: {server: WARNING}, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.75, appium:platformVersion: 12, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:viewportRect: {height: 1294, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: true, platformName: android}
+Session ID: ba0e7efe-d845-41ea-84f3-8277f36bfa72
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mobile.es.utils.GenericUtilsMobile.ElementToClick(GenericUtilsMobile.java:55)
+	at com.mobile.es.pages.FirstMileStonePage.enterPan(FirstMileStonePage.java:118)
+	at com.mobile.es.stepdefinations.FirstMilestoneMobileStepDefinition.user_should_be_asked_to_enter_or_it_should_be_fetched_from_nsdl(FirstMilestoneMobileStepDefinition.java:99)
+	at ✽.user should be asked to enter APUPP7328P or it should be fetched from nsdl(file:///C:/Users/Prayash/Cucumber/ES_Web_Automation/ES_Web_QA/es_web_automation/src/test/resources/features/LimitEnhancement.feature:16)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Happy flow for Post-PAN&quot;, &quot;LimitEnhancement&quot;)">
+                  </a> <!-- runScenario("Happy flow for Post-PAN", "LimitEnhancement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Happy flow for Post-PAN", "LimitEnhancement")</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: &apos;POST /element&apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;ES-PUN-LT-388&apos;, ip: &apos;192.168.35.49&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ba0e7efe-d845-41ea-84f3-8277f36bfa72, findElement {using=id, value=com.earlysalary.android:id/btn_complete_personal_action}]
+Capabilities {appium:appActivity: ui.main.views.activities.Sp..., appium:appPackage: com.earlysalary.android, appium:autoGrantPermissions: true, appium:automationName: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: ui.main.views.activities.Sp..., appPackage: com.earlysalary.android, autoGrantPermissions: true, automationName: Appium, loggingPrefs: {server: WARNING}, platformName: android, platformVersion: 12, webStorageEnabled: true}, appium:deviceApiLevel: 31, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G975F, appium:deviceName: RZ8M316LQAL, appium:deviceScreenDensity: 280, appium:deviceScreenSize: 720x1520, appium:deviceUDID: RZ8M316LQAL, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:loggingPrefs: {server: WARNING}, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.75, appium:platformVersion: 12, appium:statBarHeight: 71, appium:takesScreenshot: true, appium:viewportRect: {height: 1294, left: 0, top: 71, width: 720}, appium:warnings: {}, appium:webStorageEnabled: true, platformName: android}
+Session ID: ba0e7efe-d845-41ea-84f3-8277f36bfa72
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mobile.es.utils.GenericUtilsMobile.explicitlyWaitForElement(GenericUtilsMobile.java:52)
+	at com.mobile.es.pages.SecondMilestonePage.completeapplication(SecondMilestonePage.java:139)
+	at com.mobile.es.stepdefinations.SecondMilestoneStepDefinition.user_is_on_postpan_screen(SecondMilestoneStepDefinition.java:31)
+	at ✽.User is on Post-PAN screen(file:///C:/Users/Prayash/Cucumber/ES_Web_Automation/ES_Web_QA/es_web_automation/src/test/resources/features/LimitEnhancement.feature:26)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Prayash\AppData\Local\Temp\testng-eclipse-301611690\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Prayash\AppData\Local\Temp\testng-eclipse--1914895240\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -139,6 +293,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -155,12 +317,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.mobile.es.runnerfiles.FibeMobileTestNGRunner')
+data.setCell(0, 3, 140124);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.mobile.es.runnerfiles.FibeMobileTestNGRunner')
+data.setCell(1, 3, 55);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.mobile.es.runnerfiles.FibeMobileTestNGRunner')
+data.setCell(2, 3, 51);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -188,14 +362,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.mobile.es.runnerfiles.FibeMobileTestNGRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUpClass(org.testng.TestRunner@660591fb)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@11896af6)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Complete first milestone/block (name,dob,employment)", "LimitEnhancement")</span>
+                <span class="method-start">773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Happy flow for Post-PAN", "LimitEnhancement")</span>
+                <span class="method-start">140970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Happy flow for limit enhancement", "LimitEnhancement")</span>
+                <span class="method-start">141031 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">610 ms</span>
+                <span class="method-start">141087 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

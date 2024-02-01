@@ -1,8 +1,9 @@
-14:03:2023 - 03:06:48.114 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-CondensedBoldItalic.ttf
-14:03:2023 - 03:06:48.175 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-CondensedItalic.ttf
-14:03:2023 - 03:06:48.176 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-CondensedItalic.ttf
-14:03:2023 - 03:06:48.177 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Italic.ttf
-14:03:2023 - 03:06:48.177 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Italic.ttf
-14:03:2023 - 03:06:48.178 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Light.ttf
-14:03:2023 - 03:06:48.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Light.ttf
-14:03:2023 - 03:06:48.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-LightItalic.ttf
+14:03:2023 - 18:33:39.169 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothB.ttc
+14:03:2023 - 18:33:39.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothL.ttc
+14:03:2023 - 18:33:39.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothL.ttc
+14:03:2023 - 18:33:39.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothM.ttc
+14:03:2023 - 18:33:39.179 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothM.ttc
+14:03:2023 - 18:33:39.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\YuGothR.ttc
+14:03:2023 - 18:33:39.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\YuGothR.ttc
+14:03:2023 - 18:33:39.180 TRACE font.FileSystemFontProvider [main] - Found 531 fonts on the local system
+14:03:2023 - 18:33:39.208 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\Windows\FONTS\times.ttf

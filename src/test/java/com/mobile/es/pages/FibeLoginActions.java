@@ -105,7 +105,7 @@ public class FibeLoginActions extends BaseClass {
 //		String otp = db.GetOTPFromDB(string);
 //		//driver.findElement(By.id("otp")).sendKeys(otp);
 //		gu.ElementTosendKeys(OTP,otp, wait);
-//		log.info("enter OTP: "+otp);
+//		//("enter OTP: "+otp);
 //	}
 	public void tapOnLoginButton() throws InterruptedException {
 //			throws InterruptedException, InstantiationException, IllegalAccessException, IllegalArgumentException,
@@ -128,7 +128,7 @@ public class FibeLoginActions extends BaseClass {
 		try {
 			gu.ElementToClick(lm.email, wait);
 		} catch (Exception e) {
-			log.info("social login not required");
+			//("social login not required");
 		}
 
 	}
@@ -138,7 +138,7 @@ public class FibeLoginActions extends BaseClass {
 
 			gu.ElementToClick(lm.permissionSkipButton, wait);
 		} catch (Exception e) {
-			log.info("permiission already granted");
+//			//("permiission already granted");
 		}
 	}
 }

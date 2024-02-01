@@ -286,7 +286,7 @@ public boolean verifyAssertWithNode(String actual, String expected, String passM
 		    List<String> textList = new ArrayList<String>();
 		    
 		    for (WebElement rl : list) {
-		        textList.add(rl.getText());
+		       System.out.println( textList.add(rl.getText()));
 		    }
 		    
 		    return textList;

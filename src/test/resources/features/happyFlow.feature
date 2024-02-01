@@ -1,7 +1,8 @@
 @smoke
 Feature: happyFlow
-@tag
- Scenario Outline: Complete first milestone/block (name,dob,employment)
+
+  @tag
+  Scenario Outline: Complete first milestone/block (name,dob,employment)
     Given user launches the app
     And user is on login screen
     When users enters "<mobileNumber>"
@@ -16,14 +17,12 @@ Feature: happyFlow
     And select "<employmentType>"
     And user should be asked to enter <PAN> or it should be fetched from nsdl
     Then user should land on complete profile page
-   
-    
 
     Examples: 
       | firstName | lastName | employmentType | DOB        | PAN        | mobileNumber |
       | Raj       | Ranjan   | salaried       | 09/09/1996 | GPUPP7328P |   7008405914 |
 
-      Scenario Outline: Happy flow for Post-PAN
+  Scenario Outline: Happy flow for Post-PAN
     Given User is on Post-PAN screen
     When user has selected  relationship status
     Then user has entered "<monthlysalary>"
@@ -38,26 +37,23 @@ Feature: happyFlow
     Then user will provide   <homeLocality> field
     Then after user provides  "<homePincode>" and taps on saveCTA
     Then user should land on Upload bank statement/Complete KYC  acknowledgement screen
-   
 
     Examples: 
       | monthlysalary | workaddress | homeAddress | mobileNumber | companyName | completeOfficeAddress | officeLocality | homeLocality | officepincode | completeHomeAaddress | flatNo | homeLocality | homePincode |
       |         36000 | earlysalary | annastays   |   7008405914 | earlysalary | panchsil towers       | vimannagar     | cloverpark   |        411014 | Anna stays           |    101 | kharadi      |      411014 |
-      
-      Scenario Outline: Happy flow for bank statement
-   
+
+  Scenario Outline: Happy flow for bank statement
     And User is on Dashboard
     Then user pick one <bankName>
     Then user will choose offline/online option to upload bank statement
     Then user will select the option to upload 3 month bank statement in one file
     Then user will upload <bankStatementPdf> and click on submit button
-    
+
     Examples: 
-      | bankName | bankStatementPdf     | mobileNumber |
-      | Axis     | DecJanFeb.pdf |   7008405914 |
-      
-      Scenario Outline: Manual KYC
- 
+      | bankName | bankStatementPdf |
+      | Axis     | DecJanFeb.pdf    |
+
+  Scenario Outline: Manual KYC
     When user tap on complete KYC CTA
     Then welcome back screen is displayed
     Then user uploads selfie
@@ -82,8 +78,5 @@ Feature: happyFlow
     Then use has completed KYC
 
     Examples: 
-      | aadhar number | complete address | flat no | locality    | pincode | Bank Name | account number | IFSC code   |mobileNumber |
-      |          5775 | viman nagar      |     102 | clover park |  411014 | state     |       66898986 | HDFC0000003 |7008405914|
-      
-      
-      
+      | aadhar number | complete address | flat no | locality    | pincode | Bank Name | account number | IFSC code   |
+      |          5775 | viman nagar      |     102 | clover park |  411014 | state     |       66898986 | HDFC0000003 |

@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"7c4422e0-8778-483e-95ed-7b884e53752d","feature":"LimitEnhancement","scenario":"Complete first milestone/block (name,dob,employment)","start":1679397353923,"group":1,"content":"","tags":"@tag,","end":1679397493814,"className":"failed"},{"id":"2764fa4a-5b22-4cca-b8fc-2d257b26773c","feature":"LimitEnhancement","scenario":"Happy flow for Post-PAN","start":1679397493911,"group":1,"content":"","tags":"","end":1679397493943,"className":"failed"},{"id":"6acd4678-9a35-4cca-a45f-33df5317f603","feature":"LimitEnhancement","scenario":"Happy flow for limit enhancement","start":1679397493973,"group":1,"content":"","tags":"","end":1679397494001,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});

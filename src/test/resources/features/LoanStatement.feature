@@ -11,7 +11,6 @@ Feature: Loan Statement
     And taps on T&C checkbox
     And taps on getOtp button
     And taps on login button
-    And check more outcomes
     When user click on loan statement icon
     Then loan details are displayed
     Then user tap on download and send email
@@ -24,5 +23,5 @@ Feature: Loan Statement
  
 
     Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
+      | mobileNumber  | 
+      | 9503043368 |

@@ -131,7 +131,7 @@ public void tapOnInformativetextCTAButton() {
 	gu.ElementToClick(lm.onScreenInstructions,wait);
 }
 	catch(Exception e) {
-		log.info("instruction screen is not displayed as user is not fresh customer");
+		//("instruction screen is not displayed as user is not fresh customer");
 	}
 }
 	

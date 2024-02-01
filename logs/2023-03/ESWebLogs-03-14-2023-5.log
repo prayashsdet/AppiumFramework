@@ -1,8 +1,7 @@
-14:03:2023 - 03:06:48.180 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-LightItalic.ttf
-14:03:2023 - 03:06:48.234 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSans-Regular.ttf
-14:03:2023 - 03:06:48.234 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSans-Regular.ttf
-14:03:2023 - 03:06:48.235 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabic-Bold.ttf
-14:03:2023 - 03:06:48.236 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabic-Bold.ttf
-14:03:2023 - 03:06:48.237 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabic-Regular.ttf
-14:03:2023 - 03:06:48.238 DEBUG autodetect.FontFileFinder [main] - checkFontfile found C:\Windows\FONTS\NotoSansArabic-Regular.ttf
-14:03:2023 - 03:06:48.240 DEBUG autodetect.FontFileFinder [main] - checkFontfile check C:\Windows\FONTS\NotoSansArabicUI-Bold.ttf
+14:03:2023 - 18:33:39.212 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPSMT from C:\Windows\FONTS\times.ttf
+14:03:2023 - 18:33:39.225 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbd.ttf
+14:03:2023 - 18:33:39.227 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-BoldMT from C:\Windows\FONTS\timesbd.ttf
+14:03:2023 - 18:33:39.230 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\Windows\FONTS\timesi.ttf
+14:03:2023 - 18:33:39.231 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-ItalicMT from C:\Windows\FONTS\timesi.ttf
+14:03:2023 - 18:33:39.233 DEBUG font.FontMapperImpl [main] - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbi.ttf
+14:03:2023 - 18:33:39.234 DEBUG font.FileSystemFontProvider [main] - Loaded TimesNewRomanPS-BoldItalicMT from C:\Windows\FONTS\timesbi.ttf

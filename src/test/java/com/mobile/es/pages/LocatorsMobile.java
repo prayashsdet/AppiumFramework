@@ -391,10 +391,72 @@ public By creditdebit = By.xpath("//android.widget.TextView[@resource-id='com.ea
 public By loanID = By.id("com.earlysalary.android:id/txt_loan_id");
 public By cancelLoan = By.id("com.earlysalary.android:id/tvCancelLoan");
 public By loanDetailssinglecard = By.xpath("//androidx.recyclerview.widget.RecyclerView[@resource-id='com.earlysalary.android:id/rv_loan_details']");
-public By loanDetailsallcards = By.xpath("com.earlysalary.android:id/rv_loan_details");
+public By loanDetailsallcards = By.id("com.earlysalary.android:id/rv_loan_details");
 public By forecloseLoan =By.id("com.earlysalary.android:id/btnForceCloseLoan");
 public By selectloancancellationReason = By.xpath("(//android.widget.ImageView[@resource-id='com.earlysalary.android:id/rbOptions'])[1]");
 public By cancelLoanbutton = By.id("com.earlysalary.android:id/btnCancelLoan");
+public By continuetocancelloan = By.id("com.earlysalary.android:id/btnContinue");
+
+
+//firstJobber
+public By firstJobberCTA = By.id("com.earlysalary.android:id/btn_complete_personal_action");
+public By welcomebackfirstjobberCTA = By.id("com.earlysalary.android:id/btnGetStarted");
+public By uploadOfferLetter = By.id("com.earlysalary.android:id/btnConfirm");
+public By uploadofferletterdialoguebox= By.id("com.earlysalary.android:id/viewUpload1");
+public By uploadofferCTA = By.xpath("//android.widget.Button[@text='Upload offer/appointment letter']");
+public By verifyEmailID = By.id("com.earlysalary.android:id/btnConfirm");
+public By workemailfield = By.id("com.earlysalary.android:id/edtWorkEmail");
+public By getOTPCTA = By.id("com.earlysalary.android:id/btnGetOtp");
+public By workmailOTPfield = By.id("com.earlysalary.android:id/edtEmailOtp");
+public By submitemailOTP = By.id("com.earlysalary.android:id/btnSubmit");
+public By gotodashboard = By.id("com.earlysalary.android:id/btnConfirm");
+
+//ITR
+public By ITRCTA = By.id("com.earlysalary.android:id/btn_complete_personal_action");
+public By welcomebackITR = By.id("com.earlysalary.android:id/btnGetStarted");
+public By provideITRCTA = By.id("com.earlysalary.android:id/btnConfirm");
+public By onlineMethodITR = By.xpath("(//android.view.ViewGroup[@resource-id='com.earlysalary.android:id/viewMain'])[1]");
+public By offlineMethodITR = By.xpath("(//android.view.ViewGroup[@resource-id='com.earlysalary.android:id/viewMain'])[2]");
+public By uploadIITRdialogbox = By.id("com.earlysalary.android:id/viewUpload1");
+public By submitITR = By.id("com.earlysalary.android:id/btnConfirm");
+
+
+//Limit Enhancement
+
+public By fibeCard = By.xpath("//androidx.cardview.widget.CardView[@resource-id='com.earlysalary.android:id/card_complete_profile']");
+public By limitEnhancementCTA =By.id("com.earlysalary.android:id/btn_action");
+public By limitenhancementbuttonsidemenu = By.xpath("//android.widget.TextView[@text='Upgrade your limit']");
+public By submitBankstatementCTAlimitenhancement= By.id("com.earlysalary.android:id/btnContinueCta");
+
+
+//refer and earn
+public By referralCodeHyperlink = By.id("com.earlysalary.android:id/btnTextCta");
+public By referraltextfield = By.id("com.earlysalary.android:id/edtRefererCode");
+public By applyCode = By.id("com.earlysalary.android:id/btnContinue");
+public By  okaygotitreferral= By.id("com.earlysalary.android:id/btn_done");
+public By referralhyperlinkinwelcomescreen = By.id("com.earlysalary.android:id/btnHaveReferralCode");
+public By referandearnsidemenu = By.id("com.earlysalary.android:id/txt_referral_history");
+public By journeyStatus = By.id("com.earlysalary.android:id/cl_journey_status");
+public By userJourney = By.id("com.earlysalary.android:id/rv_user_journey");
+public By totalEarnings = By.id("com.earlysalary.android:id/img_top_bg");
+public By editreferral = By.id("com.earlysalary.android:id/img_edit_referral");
+public By editReferralCode =By.id("com.earlysalary.android:id/edittext_referral_code");
+public By savereferralcode= By.id("com.earlysalary.android:id/btn_save_referral_code");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

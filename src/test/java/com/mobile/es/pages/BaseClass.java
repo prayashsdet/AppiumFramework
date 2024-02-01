@@ -2,10 +2,12 @@ package com.mobile.es.pages;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.System.Logger.Level;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
@@ -31,12 +33,13 @@ import io.cucumber.java.Scenario;
 
 
 
+
 public class BaseClass {
 public static WebDriver driver;
 	public  static AndroidDriver appdriver;
 	public static  WebDriverWait wait;
 	public static Scenario scenario;
-org.apache.logging.log4j.Logger log = LogManager.getLogger(App.class.getName());
+
 
 	public BaseClass()  {
 		
@@ -84,26 +87,30 @@ org.apache.logging.log4j.Logger log = LogManager.getLogger(App.class.getName());
 //				  	dc.setCapability("automationName","UiAutomator1");
 				  	//dc.setCapability("unicodeKeyboard", true);
 //				  	URL url =new URL("http://localhost:4723/wd/hub");
+//				  	 LogManager.getLogManager().getLogger("").setLevel(Level.WARNING);
+				  	Logger.getLogger("io.appium").setLevel(Level.OFF); // Add this line to set the logging level
+
 				  	LoggingPreferences logPrefs = new LoggingPreferences();
-				  	logPrefs.enable(LogType.DRIVER, java.util.logging.Level.WARNING);
-			       dc.setCapability(CapabilityType.LOGGING_PREFS, logPrefs);
+				  	logPrefs.enable(LogType.SERVER, Level.WARNING);
+			       dc.setCapability(MobileCapabilityType.LOGGING_PREFS, logPrefs);
 				    AppiumServiceBuilder builder = new AppiumServiceBuilder();
 				    builder.withIPAddress("0.0.0.0");
 				    builder.usingAnyFreePort();
+				   builder .withArgument(GeneralServerFlag.LOG_LEVEL, "error");
 				   	  builder.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
-				   	  builder.withAppiumJS(new File("C:/Users/Prayash/AppData/Local/Programs/Appium Server GUI/resources/app/node_modules/appium/build/lib/main.js"));
-				   	  builder.usingDriverExecutable(new File("C:/Program Files/nodejs/node.exe"));
-				   	 
+//				   	  builder.withAppiumJS(new File("C:/Users/Prayash/AppData/Local/Programs/Appium Server GUI/resources/app/node_modules/appium/build/lib/main.js"));
+//				   	  builder.usingDriverExecutable(new File("C:/Program Files/nodejs/node.exe"));
+//				   	 
 				   	  	AppiumDriverLocalService	appiumService = AppiumDriverLocalService.buildService(builder);
 				   				appiumService.withBasePath("/wd/hub/");
-				   			//	.withArgument(GeneralServerFlag.SESSION_OVERRIDE));
-				   				//.withArgument(GeneralServerFlag.LOG_LEVEL, "error"));
+//				   				.withArgument(GeneralServerFlag.SESSION_OVERRIDE));
+				   				
 				   		
 				   		appiumService.start();
 					URL url = appiumService.getUrl();
 				    	 URL appiumServiceUrl = appiumService.getUrl();
 					appdriver=new AndroidDriver(appiumServiceUrl,dc);
-				    appdriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+				    appdriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(35));
 			        wait = new WebDriverWait(appdriver, Duration.ofSeconds(20));
 			        this.scenario=scenario;
 			      
